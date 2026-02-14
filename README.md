@@ -6,7 +6,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
 
-A Bash-based automated Python package manager …
+A Bash-based automated Python package manager
 
 
 A structured, Bash-based Python environment installer designed to automate categorized dependency management for AWS automation, DevOps workflows, CLI tooling, API services, and data/reporting environments.

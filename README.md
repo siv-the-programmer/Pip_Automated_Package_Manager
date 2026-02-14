@@ -54,6 +54,9 @@ This project demonstrates practical Bash scripting, dependency orchestration, an
 
 # Features
 
+<img src="pics/pic2.png" width="400" alt="addpic">
+
+
 Categorized package management
 
 Automatic virtual environment creation
@@ -83,7 +86,6 @@ locks/                  # Optional (generated pinned dependencies)
 logfile/
 ```
 
-<img src="pics/pic2.png" width="400" alt="addpic">
 
 # Package Categories
 
@@ -126,6 +128,8 @@ pyyaml
 jsonschema
 ```
 # Primary use cases:
+
+<img src="pics/pic3.png" width="400" alt="addpic">
 
 CloudFormation template validation
 
@@ -240,8 +244,6 @@ Metrics processing
 
 Data export and visualization
 
-<img src="pics/pic3.png" width="400" alt="addpic">
-
 
 # Help Menu to list packages
 
@@ -312,3 +314,4 @@ License
 
 
 This project is provided for educational and automation purposes. Modify and adapt as needed for your development environment.
+

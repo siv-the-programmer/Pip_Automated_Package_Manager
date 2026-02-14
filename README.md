@@ -23,9 +23,7 @@ This tool standardizes Python environment setup by installing curated package gr
 - Usage
 
 - Logging
-
-- Dependency Locking (Optional)
-
+- 
 - Requirements
 
 - Design Principles
@@ -123,7 +121,7 @@ logfile/all_installed.txt
 
 Logs provide traceability, auditing capability, and troubleshooting support.
 
-# Dependency Locking (Still working on it)
+# *Dependency Locking* (Still working on it)
 
 For reproducible environments, .in files can be compiled into fully pinned dependency lock files using pip-tools.
 Just to make sure we get the updated versions 
@@ -147,4 +145,5 @@ License
 
 
 This project is provided for educational and automation purposes. Modify and adapt as needed for your development environment.
+
 

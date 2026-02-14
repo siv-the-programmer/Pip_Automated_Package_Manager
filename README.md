@@ -68,7 +68,7 @@ logfile/
 
 Clone the repository:
 ```
-git clone https://github.com/your-username/pip_automated_package_manager.git
+git clone https://github.com/siv-the-programmer/pip_automated_package_manager.git
 cd pip_automated_package_manager
 ```
 

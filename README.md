@@ -82,6 +82,9 @@ packages/
 locks/                  # Optional (generated pinned dependencies)
 logfile/
 ```
+
+<img src="pics/pic2.png" width="400" alt="addpic">
+
 # Package Categories
 
 Each .in file inside the packages/ directory defines a curated group of related tools.
@@ -237,6 +240,14 @@ Metrics processing
 
 Data export and visualization
 
+<img src="pics/pic3.png" width="400" alt="addpic">
+
+
+# Help Menu to list packages
+
+<img src="pics/pic4.png" width="400" alt="addpic">
+
+
 # Installation
 
 Clone the repository:
@@ -298,5 +309,6 @@ Bash shell
 Internet access for package installation
 
 License
+
 
 This project is provided for educational and automation purposes. Modify and adapt as needed for your development environment.

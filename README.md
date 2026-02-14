@@ -1,5 +1,14 @@
 # Pip Automated Package Manager
 
+![GitHub top language](https://img.shields.io/github/languages/top/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
+
+A Bash-based automated Python package manager …
+
+
 A structured, Bash-based Python environment installer designed to automate categorized dependency management for AWS automation, DevOps workflows, CLI tooling, API services, and data/reporting environments.
 
 This tool standardizes Python environment setup by installing curated package groups into an isolated virtual environment, reducing manual configuration and improving consistency across development setups.
@@ -164,6 +173,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
 
 

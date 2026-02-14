@@ -1,0 +1,4 @@
+pytest
+moto
+responses
+freezegun

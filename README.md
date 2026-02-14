@@ -15,32 +15,6 @@ This tool standardizes Python environment setup by installing curated package gr
 
 <img src="pics/pic1.png" width="600" alt="addpic">
 
-## Table of Contents
-
-# Overview
-
----
-
-- Features
-
-- Project Structure
-
-- Package Categories
-
-- Installation
-
-- Usage
-
-- Logging
-- 
-- Requirements
-
-- Design Principles
-
-- License
-
-----
-
 # Overview
 
 The Pip Automated Package Manager provides a controlled, modular system for installing categorized Python packages. Instead of manually installing individual libraries, users select predefined categories aligned with specific engineering workflows.
@@ -173,6 +147,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
 
 

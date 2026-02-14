@@ -4,6 +4,8 @@ A structured, Bash-based Python environment installer designed to automate categ
 
 This tool standardizes Python environment setup by installing curated package groups into an isolated virtual environment, reducing manual configuration and improving consistency across development setups.
 
+<img src="pics/pic1.png" width="600" alt="addpic">
+
 ## Table of Contents
 
 # Overview
@@ -33,8 +35,6 @@ This tool standardizes Python environment setup by installing curated package gr
 ----
 
 # Overview
-
-<img src="pics/pic1.png" width="400" alt="addpic">
 
 The Pip Automated Package Manager provides a controlled, modular system for installing categorized Python packages. Instead of manually installing individual libraries, users select predefined categories aligned with specific engineering workflows.
 
@@ -298,5 +298,6 @@ Bash shell
 Internet access for package installation
 
 License
+
 
 This project is provided for educational and automation purposes. Modify and adapt as needed for your development environment.

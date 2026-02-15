@@ -290,9 +290,11 @@ logfile/all_installed.txt
 
 Logs provide traceability, auditing capability, and troubleshooting support.
 
-# Dependency Locking (Still working on it)
+# Dependency Locking 
 
-For reproducible environments, .in files can be compiled into fully pinned dependency lock files using pip-tools.
+<img src="pics/pic5.png" width="400" alt="addpic">
+
+Added dependency Locking For reproducible environments, .in files can be compiled into fully pinned dependency lock files using pip-tools.
 Just to make sure we get the updated versions 
 
 Install pip-tools:
@@ -314,4 +316,5 @@ License
 
 
 This project is provided for educational and automation purposes. Modify and adapt as needed for your development environment.
+
 

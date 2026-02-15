@@ -82,7 +82,7 @@ packages/
     cli_tools.in
     web_api.in
     data_reporting.in
-locks/                  # Optional (generated pinned dependencies)
+locks/
 logfile/
 ```
 

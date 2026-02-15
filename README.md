@@ -4,7 +4,8 @@ A structured, Bash-based Python environment installer designed to automate categ
 
 This tool standardizes Python environment setup by installing curated package groups into an isolated virtual environment, reducing manual configuration and improving consistency across development setups.
 
-
+
+
 # Overview
 
 <img src="pics/pic1.png" width="400" alt="addpic">
@@ -289,5 +290,6 @@ License
 
 
 This project is provided for educational and automation purposes. Modify and adapt as needed for your development environment.
+
 
 

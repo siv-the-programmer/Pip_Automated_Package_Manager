@@ -5,7 +5,7 @@ __pycache__/
 
 # myfiles
 logfile/
-lock_config/loc.sh
+logfile.log
 
 # C extensions
 *.so

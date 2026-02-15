@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 # Creates logfile && .txt files
 # If it does not create it in WSL after you delete it, Exit to cmd and go back into WSL
 
@@ -23,12 +24,13 @@ while true
 do
 
     clear
-    echo -e "${color3}PIP MENU INSTALLER"
+    echo -e """${color3}PIP MENU INSTALLER"
     echo -e "             By Sivario.B ${reset}"
     echo "-------------------------"
     echo
     echo -e "${color2}Type 'h' or 'help' to review the category file before installation.${reset}"
     echo 
+    echo "0) Lock Configuration and Management"
     echo "1) AWS CORE"
     echo "2) AWS IAC"
     echo "3) TESTING"
@@ -38,7 +40,7 @@ do
     echo "7) PACKAGING"
     echo "8) WEB API"
     echo "9) ALL"
-    echo -e "0) Exit ${reset}"
+    echo -e "q) Exit ${reset}"
     echo
     echo -e "${color2}Type 'Git' to Visit my Github page${reset}"
     echo
@@ -63,7 +65,7 @@ do
             # shellcheck source=/dev/null
             source .venv/bin/activate
 
-            python -m pip install --upgrade pip
+            .venv/bin/python -m pip install --upgrade pip
 
             else echo "Virtual enviroment needed, dont fuck your OS up"
             exit 1
@@ -71,8 +73,11 @@ do
     fi
         # shellcheck source=/dev/null
         source .venv/bin/activate
+    
+    if [ "$choice" = "0" ]; then
+        ./lock_config/loc.sh
 
-    if [ "$choice" = "h" ] || [ "$choice" = "help" ] ; then
+    elif [ "$choice" = "h" ] || [ "$choice" = "help" ] ; then
         cat helpfile/README.txt
 
     elif [ "$choice" = "git" ] || [ "$choice" = "Git" ] ; then
@@ -81,49 +86,49 @@ do
 
     elif [ "$choice" = "1" ]; then
         echo "Installing AWS CORE packages..."
-        python -m pip install -r packages/aws_core.in 2>&1 | tee -a logfile/installed.txt
+        .venv/bin/python -m pip install -r locks/aws_core.txt 2>&1 | tee -a logfile/installed.txt
         echo
         printf "\e[1;32mInstall complete, check the logfile for more details\e[0m\n"
 
     elif [ "$choice" = "2" ]; then
         echo "Installing AWS IAC packages..."
-        python -m pip install -r packages/aws_iac.in 2>&1 | tee -a logfile/installed.txt
+        .venv/bin/python -m pip install -r locks/aws_iac.txt 2>&1 | tee -a logfile/installed.txt
         echo
         printf "\e[1;32mInstall complete, check the logfile for more details\e[0m\n"
 
     elif [ "$choice" = "3" ]; then
         echo "Installing AWS TESTING packages..."
-        python -m pip install -r packages/aws_testing.in 2>&1 | tee -a logfile/installed.txt
+        .venv/bin/python -m pip install -r locks/aws_testing.txt 2>&1 | tee -a logfile/installed.txt
         echo
         printf "\e[1;32mInstall complete, check the logfile for more details\e[0m\n"
 
     elif [ "$choice" = "4" ]; then
         echo "Installing CLI TOOLS packages..."
-        python -m pip install -r packages/cli_tools.in 2>&1 | tee -a logfile/installed.txt
+        .venv/bin/python -m pip install -r locks/cli_tools.txt 2>&1 | tee -a logfile/installed.txt
         echo
         printf "\e[1;32mInstall complete, check the logfile for more details\e[0m\n"
 
     elif [ "$choice" = "5" ]; then
         echo "Installing Data REPORTING packages..."
-        python -m pip install -r packages/data_reporting.in 2>&1 | tee -a logfile/installed.txt
+        .venv/bin/python -m pip install -r locks/data_reporting.txt 2>&1 | tee -a logfile/installed.txt
         echo
         printf "\e[1;32mInstall complete, check the logfile for more details\e[0m\n"
 
     elif [ "$choice" = "6" ]; then
         echo "Installing DEV_QUALITY packages..."
-        python -m pip install -r packages/dev_quality.in 2>&1 | tee -a logfile/installed.txt
+        .venv/bin/python -m pip install -r locks/dev_quality.txt 2>&1 | tee -a logfile/installed.txt
         echo
         printf "\e[1;32mInstall complete, check the logfile for more details\e[0m\n"
 
     elif [ "$choice" = "7" ]; then
         echo "Installing PACKAGING packages..."
-        python -m pip install -r packages/packaging.in 2>&1 | tee -a logfile/installed.txt
+        .venv/bin/python -m pip install -r locks/packaging.txt 2>&1 | tee -a logfile/installed.txt
         echo
         printf "\e[1;32mInstall complete, check the logfile for more details\e[0m\n"
 
     elif [ "$choice" = "8" ]; then
         echo "Installing WEB API packages..."
-        python -m pip install -r packages/web_api.in 2>&1 | tee -a logfile/installed.txt
+        .venv/bin/python -m pip install -r locks/web_api.txt 2>&1 | tee -a logfile/installed.txt
         echo
         printf "\e[1;32mInstall complete, check the logfile for more details\e[0m\n"
 
@@ -131,33 +136,33 @@ do
         echo "Installing ALL packages..."
         {
             echo "Installing AWS CORE packages..."
-            python -m pip install -r packages/aws_core.in
+            .venv/bin/python -m pip install -r locks/aws_core.txt 2>&1 | tee -a logfile/installed.txt
 
             echo "Installing AWS IAC packages..."
-            python -m pip install -r packages/aws_iac.in
+            .venv/bin/python -m pip install -r locks/aws_iac.txt 2>&1 | tee -a logfile/installed.txt
 
             echo "Installing AWS TESTING packages..."
-            python -m pip install -r packages/aws_testing.in
+            .venv/bin/python -m pip install -r locks/aws_testing.txt 2>&1 | tee -a logfile/installed.txt
 
             echo "Installing CLI TOOLS packages..."
-            python -m pip install -r packages/cli_tools.in
+            .venv/bin/python -m pip install -r locks/cli_tools.txt 2>&1 | tee -a logfile/installed.txt
 
             echo "Installing Data REPORTING packages..."
-            python -m pip install -r packages/data_reporting.in
+            .venv/bin/python -m pip install -r locks/data_reporting.txt 2>&1 | tee -a logfile/installed.txt
 
             echo "Installing DEV_QUALITY packages..."
-            python -m pip install -r packages/dev_quality.in
+            .venv/bin/python -m pip install -r locks/dev_quality.txt 2>&1 | tee -a logfile/installed.txt
 
             echo "Installing PACKAGING packages..."
-            python -m pip install -r packages/packaging.in
+            .venv/bin/python -m pip install -r locks/packaging.txt 2>&1 | tee -a logfile/installed.txt
 
             echo "Installing WEB API packages..."
-            python -m pip install -r packages/web_api.in
-        } 2>&1 | tee -a logfile/installed.txt 
+            .venv/bin/python -m pip install -r locks/web_api.txt 2>&1 | tee -a logfile/installed.txt
+        }
             printf "\e[1;32mInstall complete, check the logfile for more details\e[0m\n"
-    elif [ "$choice" = "0" ]; then
-        echo "Goodbye."
+    elif [ "$choice" = "q" ]; then
         deactivate
+        echo "Goodbye."
         break
 
     else

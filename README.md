@@ -1,5 +1,13 @@
 # Pip Automated Package Manager
 
+![GitHub top language](https://img.shields.io/github/languages/top/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/siv-the-programmer/Pip_Automated_Package_Manager?style=for-the-badge)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-active-green?style=for-the-badge)
+
 A structured, Bash-based Python environment installer designed to automate categorized dependency management for AWS automation, DevOps workflows, CLI tooling, API services, and data/reporting environments.
 
 This tool standardizes Python environment setup by installing curated package groups into an isolated virtual environment, reducing manual configuration and improving consistency across development setups.
@@ -290,6 +298,7 @@ License
 
 
 This project is provided for educational and automation purposes. Modify and adapt as needed for your development environment.
+
 
 
 

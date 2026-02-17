@@ -4,13 +4,13 @@
 #
 #    pip-compile --generate-hashes --output-file=locks/aws_testing.txt packages/aws_testing.in
 #
-boto3==1.42.49 \
-    --hash=sha256:99e1df4361c3f6ff6ade65803c043ea96314826134962dd3b385433b309eb819 \
-    --hash=sha256:9cd252f640567b86e92b0a8ffdd4ade9a3018ee357c724bff6a21b8c8a41be0c
+boto3==1.42.50 \
+    --hash=sha256:2fdf8f5349b130d62576068a6c47b3eec368a70bc28f16d8cce17c5f7e74fc2e \
+    --hash=sha256:38545d7e6e855fefc8a11e899ccbd6d2c9f64671d6648c2acfb1c78c1057a480
     # via moto
-botocore==1.42.49 \
-    --hash=sha256:1c33544f72101eed4ccf903ebb667a803e14e25b2af4e0836e4b871da1c0af37 \
-    --hash=sha256:333115a64a507697b0c450ade7e2d82bc8b4e21c0051542514532b455712bdcc
+botocore==1.42.50 \
+    --hash=sha256:3ec7004009d1557a881b1d076d54b5768230849fa9ccdebfd409f0571490e691 \
+    --hash=sha256:de1e128e4898f4e66877bfabbbb03c61f99366f27520442539339e8a74afe3a5
     # via
     #   boto3
     #   moto
@@ -582,7 +582,7 @@ werkzeug==3.1.5 \
     --hash=sha256:5111e36e91086ece91f93268bb39b4a35c1e6f1feac762c9c822ded0a4e322dc \
     --hash=sha256:6a548b0e88955dd07ccb25539d7d0cc97417ee9e179677d22c7041c8f078ce67
     # via moto
-xmltodict==1.0.2 \
-    --hash=sha256:54306780b7c2175a3967cad1db92f218207e5bc1aba697d887807c0fb68b7649 \
-    --hash=sha256:62d0fddb0dcbc9f642745d8bbf4d81fd17d6dfaec5a15b5c1876300aad92af0d
+xmltodict==1.0.3 \
+    --hash=sha256:35d65d5c08f2a1121df338a0c4e49ca638480fa7c1b899ded45e0759bf32e40e \
+    --hash=sha256:3bf1f49c7836df34cf6d9cc7e690c4351f7dfff2ab0b8a1988bba4a9b9474909
     # via moto
